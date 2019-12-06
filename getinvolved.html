@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html>
+<title>Friends of LaToya Jones for Clay Town Council</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button {
+    font-family: "Montserrat", sans-serif
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
+
+  .bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/2-480.jpg');
+    min-height: 100%;
+  }
+
+  .accordion {
+    background-color: white;
+    /* color: #444; */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: dotted;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-style: italic;
+    transition: 0.2s;
+  }
+
+  .active,
+  .accordion:hover {
+    background-color: orange;
+    font-size: 16px;
+    transition: 0.4s;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  a {
+    text-decoration: none;
+  }
+</style>
+
+<body>
+
+  <!-- Sidebar with image -->
+  <nav
+    class="w3-sidebar w3-panel w3-border w3-leftbar w3-rightbar w3-border-indigo  w3-orange w3-card-4 w3-hide-medium w3-hide-small"
+    style="width:40%; border-width: 10; margin-top: 0px">
+    <div class="bgimg"></div>
+  </nav>
+
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()"
+      class="w3-button w3-hover-orange w3-black w3-xxlarge w3-display-topright" style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="https://latoyajonesforclay.com/index.html" class="w3-bar-item w3-button w3-text-white w3-hover-orange" onclick="closeNav()">Home</a>
+
+      <a href="https://latoyajonesforclay.com/getinvolved.html" class="w3-bar-item w3-button w3-text-whit w3-hover-orange" onclick="closeNav()">Get Involved</a>
+
+      <a href="https://latoyajonesforclay.com/#about" class="w3-bar-item w3-button w3-text-whit w3-hover-orange" onclick="closeNav()">About</a>
+
+      <!-- <a href="#why" class="w3-bar-item w3-button w3-text-white w3-hover-orange" onclick="closeNav()">Why I'm
+        Running</a> -->
+        <a href="http://www.ongov.net/elections/early-voting.html" class="w3-bar-item w3-button w3-text-white w3-hover-orange"
+        onclick="closeNav()">Early Voting Information</a>
+
+      <a href="https://latoyajonesforclay.com/events.html" class="w3-bar-item w3-button w3-text-white w3-hover-orange" onclick="closeNav()">Events Photo Gallary</a>
+
+      <a href="https://latoyajonesforclay.com/#endorsements" class="w3-bar-item w3-button w3-text-white w3-hover-orange"
+        onclick="closeNav()">Endorsements & Testimonials</a>
+
+        <a href="https://secure.actblue.com/donate/latoyajonesforclaycouncil" class="w3-bar-item w3-button w3-text-white w3-hover-orange" onclick="closeNav()">Donate</a>
+
+      <a href="https://latoyajonesforclay.com/#contact" class="w3-bar-item w3-button w3-text-white w3-hover-orange" onclick="closeNav()">Contact</a>
+
+      
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xlarge w3-text-grey w3-hover-orange " style="width:auto;right:0;"
+      onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <!-- Header -->
+    <header class="w3-container w3-panelw3-center" style="padding:8px 16px 5px" id="home">
+      <img src="images/pc-logo2.png" class="w3-image  w3-animate-right w3-margin-bottom" style="display:block;width:30%;margin:auto;">
+      <a href="https://secure.actblue.com/donate/latoyajonesforclaycouncil"><button class="w3-button w3-text-indigo w3-border w3-border-orange w3-padding-large w3-right" type="submit">
+          <i class="fa fa-money"></i> Donate
+        </button></a>
+      
+    </header>
+
+
+    
+      <hr class="w3-opacity">
+      
+
+        <hr class="w3-opacity">
+        <div class="w3-panel w3-card-4 w3-border w3-border-blue w3-padding-small">
+            <div class="w3-content w3-justify w3-text-black w3-padding-16" id="">
+                <div class="w3-panel w3-indigo">
+                  <h2 class="w3-text-orange" style="text-shadow:1px 1px 2px rgb(248, 249, 248)">
+                  <b>Sign Up Volunteer </h2>
+              </div>
+
+              <form target="_blank" name="LaToyajones2" method="post" action="send_form_email.php">
+
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" name="name" maxlength="50" size="30"
+                    placeholder="Name" required name="Name"></p>
+
+                <p><input class="w3-input w3-padding-16 w3-border " type="text" name="email" maxlength="75" size="30"
+                    placeholder="Email Address" required name="Email"></p>
+
+
+                <p><input class="w3-input w3-padding-16 w3-border " type="text" name="subject" maxlength="140" size="30"
+                    placeholder="Subject" required name="Subject"></p>
+
+                <p><input class="w3-input w3-padding-16 w3-border " type="textarea" name="message" maxlength="20000"
+                    size="30" placeholder="Message" required name="Message"></p>
+
+                <p>
+                  <button class="w3-button w3-indigo w3-padding-small" type="submit">
+                    <i class="fa fa-paper-plane"></i> Submit
+                  </button>
+                </p>
+              </form>
+              <!-- End Contact Section -->
+            </div>
+            
+      
+              <!-- <div class="w3-padding-32 w3-content" id="events">
+                <div class="w3-panel w3-indigo">
+                  <h2 class="w3-text-orange" style="text-shadow:1px 1px 0 #444">
+                    <b>Events</h2>
+                </div>
+              </div> -->
+          </div>
+
+            <!-- Footer -->
+            <footer
+              class="w3-container  w3-light-grey w3-center w3-large w3-padding-small "
+              style="margin: 5px">
+
+
+              <!-- Added Contact, Social Media and Footer Section -->
+              <div class="w3-padding-32 w3-content w3-text-indigo" style="margin-bottom:64px">
+                <div class="w3-panel w3-orange" id="socialmediaemail">
+                  <b>Social Media and Email</h2>
+                </div>
+
+
+                <a href="https://www.facebook.com/latoyajonesforcouncilwoman/"><i
+                    class="fa fa-facebook-official w3-hover-opacity w3-xxxlarge"></i></a>
+                <a href="https://www.instagram.com/latoyajonesforcouncilwoman/"><i
+                    class="fa fa-instagram w3-hover-opacity w3-xxxlarge"></i></a>
+                <!-- <a href = "#"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+          <a href = "#"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+               <a href = "#"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                    <a href = "#"><i class="fa fa-linkedin w3-hover-opacity"></i></a> -->
+
+
+
+                <div class="w3-section">
+                  <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Clay, New York</p>
+                  <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 1-315-308-1112</p>
+                  <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: friendsoflatoya@gmail.com
+                  </p>
+                </div>
+
+
+
+                <!-- End footer -->
+            </footer>
+            <a href="#">
+              <p class="w3-medium w3-center">Powered by <a href="https://techoverlay.com" target="_blank"
+                  class="w3-hover-orange">Technology Overlay</a></p>
+          </div>
+      </div>
+
+          <!-- END PAGE CONTENT -->
+        </div>
+  </div>  
+  
+
+        <script>
+          // Open and close sidebar
+          function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+          }
+        </script>
+
+        <!-- //Accordian -->
+
+        <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+
+          // photogal
+
+          var slideIndex = 0;
+          showSlides();
+
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+              slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            // dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+        </script>
+
+</body>
